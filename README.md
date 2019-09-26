@@ -1,7 +1,7 @@
 # Socks5 Proxy in Terminal
 Add this script to ~/.bash_profile or Execute Once (If close terminal,the proxy settings will be clear).
 ```
-export export all_proxy=socks5://127.0.0.1:1080
+export export all_proxy=socks5://127.0.0.1:1086
 ```
 
 # Socks5 Proxy in Terminal (zsh)
@@ -14,7 +14,7 @@ vim ~/.zshrc
 ## Insert this to zshrc
 ```
 # proxy list
-alias proxy='export all_proxy=socks5://127.0.0.1:1080'
+alias proxy='export all_proxy=socks5://127.0.0.1:1086'
 alias unproxy='unset all_proxy'
 ```
 
@@ -30,7 +30,7 @@ unproxy
 
 # Config git to use Socks5 Proxy
 ```
-git config --global http.proxy 'socks5://127.0.0.1:1080'
-git config --global https.proxy 'socks5://127.0.0.1:1080'
+git config --global http.proxy 'socks5://127.0.0.1:1086'
+git config --global https.proxy 'socks5://127.0.0.1:1086'
 ```
 
