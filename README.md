@@ -1,7 +1,7 @@
 # Socks5 Proxy in Terminal
 Add this script to ~/.bash_profile or Execute Once (If close terminal,the proxy settings will be clear).
 ```
-export export all_proxy=socks5://127.0.0.1:1086
+export all_proxy=socks5://127.0.0.1:1086
 ```
 
 # Socks5 Proxy in Terminal (zsh)
